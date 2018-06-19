@@ -3,7 +3,7 @@
 	<h1 class="mb-0">Erik
 	  <span class="text-primary">Smith</span>
 	</h1>
-	<div class="subheading mb-5"> Montreal, Quebec, Camada · (450) 522-2270 ·
+	<div class="subheading mb-5"> Montreal, Quebec, Canada · (450) 522-2270 ·
 	  <a href="mailto:erik.aaron.smith@gmail.com">erik.aaron.smith@gmail.com</a>
 	</div>
 	<p class="mb-5">
