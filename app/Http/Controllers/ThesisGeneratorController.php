@@ -21,6 +21,10 @@ class ThesisGeneratorController extends Controller
 
         foreach ($files as $key => $file) {
           $thesisFile = new ThesisFile($file);
+          array_push($allFiles, $thesisFile);
+          echo 1;
         }
+
+        dd($allFiles[0]->tokenSentence);
     }
 }

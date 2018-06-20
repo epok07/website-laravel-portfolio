@@ -46,7 +46,7 @@ class ThesisFile
         array_push($tokenWords_tmp,$word); // add to word dictionnary
       }
     }
-    $tokenWords = $tokenWords_tmp;
+    $this->tokenWords = $tokenWords_tmp;
 
     // Clense sentence Array
     $tokenSentences_tmp = [];
@@ -61,10 +61,8 @@ class ThesisFile
 
       }
     }
-    $tokenSentence = $tokenSentences_tmp;
+    $this->tokenSentence = $tokenSentences_tmp;
 
-    dd($this->wordRanks);
-    dd($tokenWords);
   }
 }
 
