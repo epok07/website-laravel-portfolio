@@ -21,6 +21,7 @@
 		<span class="text-primary">February 2017 – Current</span>
 	  </div>
 	</div>
+  <br>
 
 	{{-- Mogile Tech --}}
 	<div class="resume-item d-flex flex-column flex-md-row">
@@ -41,7 +42,7 @@
 		<span class="text-primary">May 2016 – September 2016</span>
 	  </div>
 	</div>
-
+  <br>
 	<div class="resume-item d-flex flex-column flex-md-row">
 	  <div class="resume-content mr-auto">
 		<h3 class="mb-0">Software Developer</h3>
@@ -52,7 +53,7 @@
 		<span class="text-primary">May 2015 – May 2016</span>
 	  </div>
 	</div>
-
+  <br>
 	<div class="resume-item d-flex flex-column flex-md-row">
 	  <div class="resume-content mr-auto">
 		<h3 class="mb-0">Software Developer (Internship)</h3>
@@ -63,6 +64,7 @@
 		<span class="text-primary">January 2015 – May 2015</span>
 	  </div>
 	</div>
+  <br>
 
   </div>
 
