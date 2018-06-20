@@ -14,3 +14,4 @@ Route::get('/app', 'AppController@index')->name('cv.index');
 
 // Thesis Generator
 Route::get('/app/thesis', 'ThesisGeneratorController@index')->name('thesis.index');
+Route::post('/app/thesis/submit', 'ThesisGeneratorController@submit')->name('thesis.submit');
