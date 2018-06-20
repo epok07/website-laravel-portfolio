@@ -10,7 +10,7 @@
 		Fluent bilingual in <strong>French</strong> & <strong>English</strong><br>
 		I am a highly motivated developer who thrives in both web and
 		application based programming and I am eager to learn new technologies.<br>
-		I use the Agile development approach in my day-to-day life.
+		I use the Agile development in my day-to-day life.
 	</p>
 	<ul class="list-inline list-social-icons mb-0">
 	  <li class="list-inline-item">

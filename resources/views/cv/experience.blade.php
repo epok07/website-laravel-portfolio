@@ -47,7 +47,10 @@
 	  <div class="resume-content mr-auto">
 		<h3 class="mb-0">Software Developer</h3>
 		<div class="subheading mb-3"><a href="https://mogiletech.com/">Mogile Tech</a></div>
-		<p>Android and full stack website development</p>
+    <ul>
+			<li>Android mobile development</li>
+			<li>Full stack website development</li>
+		</ul>
 	  </div>
 	  <div class="resume-date text-md-right">
 		<span class="text-primary">May 2015 – May 2016</span>
@@ -58,7 +61,10 @@
 	  <div class="resume-content mr-auto">
 		<h3 class="mb-0">Software Developer (Internship)</h3>
 		<div class="subheading mb-3"><a href="https://mogiletech.com/">Mogile Tech</a></div>
-		<p>Android and full stack website development</p>
+    <ul>
+			<li>Android mobile development</li>
+			<li>Website development</li>
+		</ul>
 	  </div>
 	  <div class="resume-date text-md-right">
 		<span class="text-primary">January 2015 – May 2015</span>
