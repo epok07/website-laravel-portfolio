@@ -23,8 +23,12 @@ class SummarizerController extends Controller
         // Get file from request
         $files = $request["files"];
 
-        foreach ($files as $key => $file) {
-            $summarizer->addText(new Document($file));
+        try {
+          foreach ($files as $key => $file) {
+              $summarizer->addText(new Document($file));
+          }
+        } catch (\Exception $e) {
+          return Redirect::route('summarizer.index')->with('error', "File \"". $file->getClientOriginalName() ."\" was not a raw .txt file!");
         }
 
         return Redirect::route('summarizer.index')->with('summary', $summarizer->generate($request["wordCount"]) );

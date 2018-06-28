@@ -11,13 +11,13 @@
 
 	<div class="content">
 
-
 				<form class="" action="/app/summarizer/submit" method="POST" role="form" enctype="multipart/form-data">
 					{{csrf_field()}}
 
 					<div class="row">
 						<div class="col-12 text-center mb-3">
 								<h1>Summary Generator</h1>
+								<p class="text-danger"> Warning! Only upload raw <strong>.txt</strong> files!</p>
 						</div>
 					</div>
 
@@ -52,6 +52,13 @@
 						</div>
 
 					</div>
+
+					@if (session("error") )
+						<h2 class="text-center">Could not generate!</h2>
+						<div class="alert alert-danger" role="alert">
+						  {{session("error")}}
+						</div>
+					@endif
 
 					@if (session("summary") )
 						<hr>
