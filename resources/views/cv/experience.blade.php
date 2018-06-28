@@ -12,9 +12,9 @@
 			<li>Laravel & Django framework for web apps</li>
 			<li>Develop PDF Coordinate Mapping system</li>
 			<li>Nodejs API services</li>
-			<li>Advanced Github management for team</li>
+			<li>Github use and management</li>
 			<li>Product lead on 3 platforms</li>
-			<li>Jira & Scrum Master</li>
+			<li>Jira & Scrum lead</li>
 		</ul>
 	  </div>
 	  <div class="resume-date text-md-right">
@@ -31,11 +31,11 @@
 		<ul>
 			<li>Manage a team of three (3) developers</li>
 			<li>Schedule Agile Tickets for the team</li>
-			<li>Full stack (front / back end) website development and documentation</li>
-			<li>Team presentations</li>
+			<li>Full stack website development and documentation</li>
+			<li>Team meetings and presentations</li>
 			<li>Extensive knowledge with Google APIs</li>
 			<li>Database administration (MSSQL, mySQL, MongoDB)</li>
-			<li>Cloud Services (Microsoft Azure)</li>
+			<li>Miscosoft Cloud Services (Azure)</li>
 		</ul>
 	  </div>
 	  <div class="resume-date text-md-right">

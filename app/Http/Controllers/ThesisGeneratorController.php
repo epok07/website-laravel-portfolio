@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use \App\Classes\thesisGenerator\ThesisFile;
+use \App\Classes\thesisGenerator\ThesisText;
+use \App\Classes\thesisGenerator\ThesisCollector;
 use Illuminate\Http\Request;
 use File;
+
 class ThesisGeneratorController extends Controller
 {
     public function index()
@@ -12,19 +14,20 @@ class ThesisGeneratorController extends Controller
         return view("thesis.index");
     }
 
-    public function submit(Request $request){
+    public function submit(Request $request)
+    {
+        // dd(ThesisText::getUselessWords());
         // Variable Declarations
-        $allFiles = [];
-
+        $thesisCollector = new ThesisCollector();
         // Get file from request
         $files = $request["files"];
 
         foreach ($files as $key => $file) {
-          $thesisFile = new ThesisFile($file);
-          array_push($allFiles, $thesisFile);
-          echo 1;
+            $thesisCollector->addText(new ThesisText($file));
         }
 
-        dd($allFiles[0]->tokenSentence);
+        $thesisCollector->calculateTextRanks();
+
+        dd($thesisCollector->sortTopSentences());
     }
 }

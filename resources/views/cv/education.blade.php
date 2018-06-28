@@ -7,7 +7,7 @@
 		<h3 class="mb-0">Concordia University</h3>
 		<div class="subheading mb-3">
 			Bachelor of Computer Science <br>
-			<small>With a focus in video game development</small>
+			<small>focus on video game development</small>
 		</div>
 	  </div>
 	  <div class="resume-date text-md-right">
@@ -33,7 +33,7 @@
 	  <div class="resume-content mr-auto">
 		<h3 class="mb-0">High School Diploma</h3>
 		<div class="subheading mb-3">General Education</div>
-		<p>Physical Education Sports Award for Excellence</p>
+		<p>Excellence Award in Physical Education</p>
 	  </div>
 	  <div class="resume-date text-md-right">
 		<span class="text-primary">Graduated 2011</span>

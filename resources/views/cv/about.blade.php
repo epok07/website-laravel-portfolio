@@ -7,10 +7,10 @@
 	  <a href="mailto:erik.aaron.smith@gmail.com">erik.aaron.smith@gmail.com</a>
 	</div>
 	<p class="mb-5">
-		Fluent bilingual in <strong>French</strong> & <strong>English</strong><br>
-		I am a highly motivated developer who thrives in both web and
-		application based programming and I am eager to learn new technologies.<br>
-		I use the Agile development in my day-to-day life.
+		Fluent bilingual in <strong>French</strong> & <strong>English</strong>.<br>
+		I’m a highly motivated full stack developer who thrives in both web and application-based programming.<br>
+		I have now been coding for 6 years, throughout which I have used Agile development for project management. <br>
+		During that time, I’ve had the chance to work on multiple projects and improve my knowledge of Laravel, Django, C++ and SQL.
 	</p>
 	<ul class="list-inline list-social-icons mb-0">
 	  <li class="list-inline-item">
