@@ -196,8 +196,8 @@ class Document
                 }
 
                 // Remove tabs & new lines
-                $sentence = str_replace("\r", "", $sentence);
-                $sentence = str_replace("\n", "", $sentence);
+                $sentence = str_replace("\r", " ", $sentence);
+                $sentence = str_replace("\n", " ", $sentence);
 
                 // Add to array of words
                 if ($sentence != "") {
