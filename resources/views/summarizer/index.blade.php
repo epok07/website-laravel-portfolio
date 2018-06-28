@@ -15,9 +15,13 @@
 					{{csrf_field()}}
 
 					<div class="row">
-						<div class="col-12 text-center mb-3">
-								<h1>Summary Generator</h1>
-								<p class="text-danger"> Warning! Only upload raw <strong>.txt</strong> files!</p>
+						<div class="col-12 mb-3 text-center">
+							<h1 class="">Summary Generator</h1>
+							<div class="bg-light">
+								<p class="text-danger"> Warning! Only upload raw <strong>.txt</strong> files!<br>
+									<span class="text-warning">If possible, remove all periods from acronyms as they are impossible to detect as non sentence periods.</p>
+								</p>
+							</div>
 						</div>
 					</div>
 
