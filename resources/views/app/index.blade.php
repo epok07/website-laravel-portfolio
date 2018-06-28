@@ -6,12 +6,12 @@
 	{{-- Generate file --}}
 	<div class="card">
 		<div class="card-header">
-		Thesis Generator
+		Summary Generator
 		</div>
 		<div class="card-body">
-			<h5 class="card-title">Thesis Generator</h5>
-			<p class="card-text">generates a thesis paper given an innitial thesis and source material</p>
-			<a href="/app/thesis" class="btn btn-primary">Go To</a>
+			<h5 class="card-title">Summary Generator</h5>
+			<p class="card-text">generates a summary given an source material</p>
+			<a href="/app/summarizer" class="btn btn-primary">Go To</a>
 		</div>
 	</div>
 @endsection

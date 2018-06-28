@@ -12,6 +12,6 @@ Route::get('/cv', 'CvController@index')->name('cv.index');
 // Apps
 Route::get('/app', 'AppController@index')->name('cv.index');
 
-// Thesis Generator
-Route::get('/app/thesis', 'ThesisGeneratorController@index')->name('thesis.index');
-Route::post('/app/thesis/submit', 'ThesisGeneratorController@submit')->name('thesis.submit');
+// Summary Generator
+Route::get('/app/summarizer', 'SummarizerController@index')->name('summarizer.index');
+Route::post('/app/summarizer/submit', 'SummarizerController@submit')->name('summarizer.submit');
