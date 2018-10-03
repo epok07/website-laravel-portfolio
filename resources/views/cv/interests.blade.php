@@ -10,7 +10,7 @@
 	<hr>
   	<h3 class="">Quote</h3>
 	<blockquote class="blockquote">
-	  <p class="">There are only two kinds of programming languages: those people always bitch about and those nobody uses.</p>
+	  <p class="">There are only two kinds of programming languages; those people always [complain] about and those nobody uses.</p>
 	  <footer class="blockquote-footer"><a href="https://en.wikipedia.org/wiki/Bjarne_Stroustrup">Bjarne Stroustrup (Creator of C++)</a></footer>
 	</blockquote>
 

@@ -3,15 +3,14 @@
 // Authentication routes
 // Auth::routes();
 
-// Home
-Route::get('/', 'LandingController@index')->name('home');
+// Home (CV)
+Route::get('/', 'CvController@index')->name('cv.index');
+Route::get('/cv/download', 'CvController@downloadCv')->name('cv.download');
 
-// CV
-Route::get('/cv', 'CvController@index')->name('cv.index');
 
 // Apps
-Route::get('/app', 'AppController@index')->name('cv.index');
+Route::get('/project', 'ProjectController@index')->name('cv.index');
 
 // Summary Generator
-Route::get('/app/summarizer', 'SummarizerController@index')->name('summarizer.index');
-Route::post('/app/summarizer/submit', 'SummarizerController@submit')->name('summarizer.submit');
+Route::get('/project/summarizer', 'SummarizerController@index')->name('summarizer.index');
+Route::post('/project/summarizer/submit', 'SummarizerController@submit')->name('summarizer.submit');

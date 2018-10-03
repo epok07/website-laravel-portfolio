@@ -10,4 +10,8 @@ class CvController extends Controller
     {
         return view("cv.master");
     }
+
+    public function downloadCv(Request $request){
+        return response()->download(public_path('media/Erik_Smith_CV.pdf'));
+    }
 }
