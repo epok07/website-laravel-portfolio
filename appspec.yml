@@ -3,3 +3,8 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/Personal-Website
+hooks:
+  AfterInstall:
+    - location: scripts/install_dependencies.sh
+      timeout: 1000
+      runas: root
