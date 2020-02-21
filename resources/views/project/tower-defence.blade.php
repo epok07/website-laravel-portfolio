@@ -27,7 +27,6 @@
         <div class="list-group sticky-top">
           <a class="list-group-item js-scroll-trigger" href="#the-project">The Project</a>
           <a class="list-group-item js-scroll-trigger" href="#goal">Goal</a>
-          <a class="list-group-item js-scroll-trigger" href="#how-to-use">How to use</a>
           <a class="list-group-item js-scroll-trigger" href="#gallery">Gallery</a>
           <a class="list-group-item js-scroll-trigger" href="#video">Video</a>
         </div>
