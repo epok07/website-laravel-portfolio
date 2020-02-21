@@ -145,3 +145,34 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+/* 
+  Custom
+*/
+.caroussel-text-title,.caroussel-text-text{
+  font-family: fantasy !important;
+  color: white;
+}
+
+.caroussel-text-title{
+  -webkit-text-stroke: 4px black;
+  font-size:40px !important;
+}
+
+.caroussel-text-text{
+  -webkit-text-stroke: 2px black;
+  font-size:30px !important;
+}
+.caroussel-text-text a{
+  -webkit-text-stroke: 2px black;
+  color: #a994ff !important;
+}
+.caroussel-text-text a:hover{
+  -webkit-text-stroke: 2px black;
+  color: #a994ff !important;
+  text-decoration: none;
+}
+
+.carousel{
+  max-width: 1200px;
+}

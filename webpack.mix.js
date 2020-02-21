@@ -37,4 +37,6 @@ mix.js('resources/assets/js/global/*', 'public/js/global/global.js')
 
 // CV
 mix.copy('resources/assets/js/cv/*', 'public/js/cv')
+  .copy('resources/assets/js/projects/*', 'public/js/projects')
+	.copy('resources/assets/sass/projects/*', 'public/css/projects')
 	.copy('resources/assets/sass/cv/*', 'public/css/cv');

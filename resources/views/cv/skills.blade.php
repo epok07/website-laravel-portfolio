@@ -9,7 +9,7 @@
            <ul class="fa-ul mb-0">
 
 			<li><i class="fa-li fa fa-check"></i>
-			C++
+			C++ & C#
 			</li>
 
 			<li><i class="fa-li fa fa-check"></i>
@@ -56,9 +56,9 @@
 
      </div>
 	 <hr>
-	 <div class="subheading mb-3">Frameworks</div>
+	 <div class="subheading mb-3">Frameworks & Engines</div>
 	<div class="row">
-	   <div class="col-6">
+	<div class="col-6">
 		  <ul class="fa-ul mb-0">
 
 		   <li><i class="fa-li fa fa-check"></i>
@@ -79,6 +79,20 @@
 
 		  </ul>
 	   </div>
+	   <div class="col-6">
+		  <ul class="fa-ul mb-0">
+
+		   <li><i class="fa-li fa fa-check"></i>
+		   Unity
+		   </li>
+
+		   <li><i class="fa-li fa fa-check"></i>
+		   Unreal
+		   </li>
+
+		  </ul>
+	   </div>
+	   
 	</div>
 
 	<hr>
@@ -92,11 +106,11 @@
    	   </li>
 
    	   <li><i class="fa-li fa fa-check"></i>
-   	   Microsoft Azure (IIS, MSSQL)
+   	   Microsoft Azure
    	   </li>
 
 	   <li><i class="fa-li fa fa-check"></i>
-	   Unity engine
+	   Continuous Integration (CircleCi, Jenkins, TravisCi)
 	   </li>
 
 	   <li><i class="fa-li fa fa-check"></i>
